@@ -13,6 +13,23 @@ html {
   top: 0;
 }
 
+/* background  */
+ .background{
+  background: rgb(0, 0, 0, 0.7) url("../img/home/bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
+  z-index: -1;
+} 
+
+#home-container{
+  height: 372px;
+  justify-content: end;
+}
+
+ 
+
 /* divider  */
 .b-example-divider {
   height: 3rem;
