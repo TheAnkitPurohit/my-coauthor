@@ -1,0 +1,57 @@
+/* CSS Reset  */
+:root {
+  --main-color: #2196f3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* navbar  */
+.navbar-top {
+  position: sticky;
+  top: 0;
+}
+
+/* divider  */
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%),
+    inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+/* About Us  */
+.feature-img {
+  filter: invert(1);
+}
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--main-color) !important;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 0.75rem;
+}
+
+.feature-heading {
+  border-left: 9px solid var(--main-color);
+  padding-left: 10px;
+}
+
+.first-heading {
+  font-size: 2rem;
+}
+
+/* co-authore-img */
+.co-authore-img {
+  width: 208px;
+  background: black;
+}
